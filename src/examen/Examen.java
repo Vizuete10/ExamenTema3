@@ -438,7 +438,7 @@ public class Examen {
 		System.out.println("Libres: " + libres);
 		System.out.println("Reservados: " + reservados);
 		System.out.println("Ocupados: " + ocupados);
-		System.out.printf("Ocupación real: %.2f%%\n", porcentaje);
+		System.out.println("Ocupación real: " +  porcentaje + " % ");
 		System.out.println("Fila con más ocupados: " + filaMasOcupada);
 	}
 
